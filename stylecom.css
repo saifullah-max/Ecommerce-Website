@@ -1,5 +1,5 @@
 .hero {
-    background-image: url("hero4.png");
+    background-image: url("./Images/hero4.png");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -200,7 +200,7 @@
   
   /* Blog */
   .b-img {
-    background-image: url("b19.jpg");
+    background-image: url("./Images/b19.jpg");
     height: 40vh;
     width: 100%;
     background-size: cover;
@@ -208,7 +208,7 @@
     padding-bottom: 1vh;
 }
 .about-img {
-    background-image: url("banner.png");
+    background-image: url("./Images/banner.png");
     height: 40vh;
     width: 100%;
     background-size: cover;

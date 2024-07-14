@@ -6,6 +6,3 @@ smallImgs.forEach(function (smallImg1, index) {
         mainImg.src = smallImg1.src;
     }
 });
-
-
-
