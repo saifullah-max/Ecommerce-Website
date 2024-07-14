@@ -1,0 +1,322 @@
+.hero {
+    background-image: url("hero4.png");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+}
+.f-img {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-img img {
+    border: 2px solid black;
+}
+.ship {
+    background-color: rgba(255, 182, 193, 0.3);
+    border-radius: 5px;
+}
+.img:hover {
+    box-shadow: 10px 20px 34px rgba(0, 0, 0, 0.3);
+}
+.order {
+    background-color: rgba(144, 238,144, 0.3);
+    border-radius: 5px;
+}
+.save {
+    background-color: rgba(117, 191, 186, 0.3);
+    border-radius: 5px;
+}
+.Promotions {
+    background-color: rgba(176, 162, 219, 0.3);
+    border-radius: 5px;
+}
+.sell {
+    background-color: rgba(212, 195, 178, 0.4);
+    border-radius: 5px;
+}
+.support {
+    background-color: rgba(150, 131, 150, 0.3);
+    border-radius: 5px;
+}
+.nav-link:hover{
+    color: green !important;
+}
+.nav-link.active {
+    border-bottom: 2px solid green;
+}
+.f-box{
+    height: 35vh;
+    width: 35vh;
+}
+.button1:hover {
+    background-color: green !important;
+}
+.button2 {
+    width: 20vh !important;
+}
+.about-image{
+    height: 300px;
+    width: 490px;
+}
+.about-image2{
+    height: 200px;
+    width: 370px;
+}
+.mainImg {
+    height: 60vh !important;
+    padding: 4vh 0vh 4vh 7vh;   
+}
+.smallImg1 {
+    height: 20vh !important;
+    padding-right: 1vh;
+    padding-top: 2vh;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for small screens here */
+    .navbar-toggler {
+      display: block;
+    }
+
+  
+    .navbar-nav {
+      flex-direction: column;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .navbar-nav .nav-link {
+      padding: 5px 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  
+    .navbar-nav .nav-link:last-child {
+      border-bottom: none;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (max-width: 600px) {
+    /* Add styles specific to small devices */
+    .sec1 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px !important;
+        justify-content: start;
+    }
+    .mainImg {
+        height: 40vh !important;
+        padding: 4vh 0vh 1vh 1vh;
+    }
+    .imagesm {
+        width: 100%;
+        height: 10vh !important;
+        padding-right: 1vh;
+        padding-top: 0vh; 
+    }
+    .pro-details {
+        width: 100%;
+        font-size: 13px;
+        line-height: 1.4;
+        margin-bottom: 15px;
+        padding-left: 0px;
+    }
+    .button2 {
+        width: 13vh !important;
+    }
+    .blog1 {
+        width: 100%;
+        padding-bottom: 3vh !important;
+    }
+    .img-text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .imgblog {
+        display: flex;
+    }
+    .map {
+        width: 400px;
+    }
+    .form1 {
+        padding-left: 0px !important;
+        width: 250px !important;
+    }
+    .contact-text {
+        padding-left: 0;
+    }
+    .form2{
+        width: 200px !important;
+    }
+    .people-sm-device {
+        width: 200px !important;
+        padding-left: 0 !important;
+    }
+    #cart  {
+       overflow-x: auto;
+    }
+    #cart-add {
+        flex-direction: column;
+    }
+    .coupon {
+        width: 100% !important;
+    }
+    #cartTotal {
+        width: 100% !important;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    /* Add styles specific to medium devices */
+    .aboutTxt {
+        width: 100%;
+    }
+    .dwdapp {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #cart {
+        overflow-x: auto;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    /* Add styles specific to large devices */
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    /* Add styles specific to extra large devices */
+  }
+  
+  /* Blog */
+  .b-img {
+    background-image: url("b19.jpg");
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding-bottom: 1vh;
+}
+.about-img {
+    background-image: url("banner.png");
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding-bottom: 1vh;
+}
+.aboutVid {
+    width: 70%;
+    height: 100%;
+    margin: 20px auto 0 auto;
+    padding-bottom: 3vh;
+    display: flex;
+    align-items: center;
+}
+.peoples {
+    height: 65px;
+    width: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.contact-people {
+    display: flex;
+    align-items: start;
+}
+#form-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 80px;
+    border: 1px solid #e1e1e1;
+}
+
+/* Cart */
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+#cart table img {
+    width: 70px;
+}
+#cart table td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+}
+#cart table td:nth-child(2) {
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(3) {
+    width: 250px;
+    text-align: center;
+}
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6) {
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(5) input {
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+#cart table thead{
+    border: 1px solid #e1e1e1;
+    border-left: none;
+    border-right: none;
+}
+#cart table thead td {
+    font-weight: 700;
+    font-size: 13px;
+    padding: 18px 0;
+}
+#cart table tbody tr td {
+    padding-top: 15px;
+}
+#cart table tbody td{
+    font-size: 13px;
+}
+.coupon {
+    width: 50%;
+    margin-bottom: 30px;
+}
+.coupon h3 {
+    padding-bottom: 15px;
+}
+.coupon input {
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e1e1e1;
+}
+#cartTotal {
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e1e1e1;
+    padding: 30px;
+}
+#cartTotal table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#cartTotal table td {
+    width: 50%;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    font-size: 13px;
+}
